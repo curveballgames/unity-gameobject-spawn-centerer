@@ -15,7 +15,7 @@ This package automatically centers any GameObject instantiated in the Editor a `
 - This custom editor looks for the `GameObjectCenterer` script attached to said component
     - If the component exists, it does nothing
     - If the component does not exist, it adds it to the `GameObject` of the inspected `Transform`
-- The `GameObjectCenterer` script executes in edit mode. It centers the GameObject immediately by setting its `position` to `Vector3.zero`.
+- The `GameObjectCenterer` script executes in edit mode. It centers the GameObject immediately by setting its `localPosition` to `Vector3.zero`.
 - The fact that is has done this is stored, so that the code is not run again.
 
 **Note:** overriding the `Transform` editor replaces world coordinates with local coordinates.
