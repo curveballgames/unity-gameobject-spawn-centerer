@@ -2,7 +2,7 @@
 Automatically center any GameObject at 0,0,0 when instantiated in the Unity Editor.
 
 ## Importing
-1. Download the latest zip from [releases](https://github.com/curveballgames/unity-gameobject-spawn-centerer/releases)
+1. Download the latest zip from [releases](https://github.com/curveballgames/unity-gameobject-spawn-centerer/releases/latest)
 2. Unpack into project Assets directory
 
 ## Usage
